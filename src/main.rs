@@ -1,3 +1,6 @@
+mod parser;
+
 fn main() {
-    println!("Hello, world!");
+    let mut parser = parser::Parser::new();
+    parser.parse();
 }
